@@ -1,0 +1,222 @@
+.navbar{
+    background-color: #010648;
+    margin-top: -16px;
+}
+
+.nav-link{
+    color: goldenrod;
+}
+
+.nav-link .dropdown-toggle{
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    background-color: grey;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.text{
+    margin-left: 100px;
+}
+
+.imgcon{
+    filter: invert(1);
+    padding-top: 1px;
+}
+
+.dropdown-menu{
+    background-color: #e9ecef;
+}
+
+.dropdown-items{
+    background-color: #ff0000;
+    color: white;
+    width: 1180px;
+}
+
+.ionicon{
+    margin-right: 2px;
+}
+
+.dropdown-item:hover{
+    color: #ff0000;
+}
+.dropdown-item .text-origin:hover{
+    color: #010648;
+}
+
+.text-origin{
+    color: #010648;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn .btn-secondary{
+    background-color: #010648;
+}
+
+.sec-d{
+    background-image: url('https://www.alayacare.com/hubfs/raw_assets/public/2021/HomePage/images/background-stories.svg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    object-fit:contain;  
+}
+
+.sec .cardd{
+    gap: 2rem;
+    background-color: transparent;
+}
+
+.card{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.card-title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;  
+}
+
+.txt{
+    color: #fff;
+    font-weight: 200;
+    margin-left: 2px;
+}
+
+.card-body{
+    position: relative;
+}
+
+.card-body .card-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card-body:hover{
+    background: linear-gradient(to bottom, #ff9900 0%, #000000 95%);
+    transform: scale(1.1, 1.1);
+    transition-delay: 0.01s;
+    border-radius: 12px;
+}
+
+.txt-accordion{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.card-title{
+    margin: auto;
+}
+
+.card-text{
+    color: #fff;
+}
+
+.btn-head{
+    justify-content: center;
+}
+
+.card-group .card-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card-body.card-group:hover {
+
+    background-image: url('images/alayabg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+
+}
+
+.card-body.card-group:hover{
+    /* visibility: hidden; */
+}
+
+.card-title:hover, .card-text:hover{
+    color: #000000;
+}
+
+.carousel-card{
+    color: #010648;
+    font-weight: bold;
+    font-weight: 800;
+}
+
+.carousel-tech{
+    border: 1px solid white;
+    margin-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.code-tech{
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.new-sec{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hr-tg{
+    /* border: 8px solid ; */
+    height: 1rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,16,17,0.7651435574229692) 35%, rgba(0,212,255,1) 100%);
+}
+
+.card-t{
+    color: #010648;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.card-b{
+    border-top: 5px solid red;
+}
+
+.input-sec{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.btn-gr{
+    background-color: #010648;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.last-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
